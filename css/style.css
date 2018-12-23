@@ -1,0 +1,37 @@
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;font-size:100%}
+html,button,input,select,textarea{font-family:'Fanwood Text', serif}
+body{background:#F3EFE0;color:#5B5B5A;margin:0;padding:0}
+ol,ul{list-style:none}
+a{color:inherit;text-decoration:none}
+a:focus{outline:thin dotted}
+a:active,a:hover{outline:0}
+header{-moz-transition:width .25s linear;-o-transition:width .25s linear;-webkit-transition:width .25s linear;background-color:#9A3334;color:#F3EFE0;height:4em;left:0;position:fixed;right:0;top:0;transition:width .25s linear;width:100%;z-index:100;margin:0;padding:.5em 0}
+.row{-moz-transition:all .25s linear;-o-transition:all .25s linear;-webkit-transition:all .25s linear;transition:all .25s linear;width:60em;zoom:1;margin:0 auto;padding:0}
+hr{background-image:0 rgba(0,0,0,0.75), rgba(0,0,0,0));border:0;height:1px}
+p{font:normal 1.2em/1.5 'Fanwood Text', serif;text-align:justify;text-decoration:none}
+h1{font-family:'Open Sans', sans-serif;font-size:1.5em;font-variant:small-caps;font-weight:700;line-height:1.5em;text-align:center;text-decoration:none;text-transform:none;margin:0;padding:0}
+h2{font:normal 1em/1.5em 'Open Sans', sans-serif;font-variant:small-caps}
+#hero{background:#2B3336;border-bottom:1em solid #8F918B;height:30em;left:0;position:relative;right:0;margin:0 auto;padding:1em 0}
+#featured img{display:none}
+#featured.orbit{background:none}
+#blue{background:#08c;border-top:1em solid #7ABCD6;color:#fff}
+#footer{background:#2b3336;color:#e6e6e6}
+.button{-moz-border-radius:.25em;-moz-transition:background .25s linear;-webkit-border-radius:.25em;-webkit-transition:background .25s linear;background:#299329;border-radius:.25em;color:#fff;display:block;font:normal 1em/2 "Open Sans", sans-serif;text-align:center;text-decoration:none;transition:background .25s linear;width:auto;padding:.25em}
+.button:hover{background-color:#185718;color:#fff}
+.container{width:100%}
+.row:before,.row:after{content:"";display:table;line-height:0}
+.row:after{clear:both}
+.block{float:left;min-height:1px;width:28em;margin:1em}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,#featured.orbit img{display:block}
+
+@media screen and max-width 60em {
+#hero{height:25em}
+.row{width:50em}
+.block{width:23em}
+}
+
+@media screen and max-width 50em {
+#hero{height:20em}
+.row{width:40em}
+.block{width:18em}
+}
